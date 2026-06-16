@@ -1,0 +1,31 @@
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Emane Event//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+UID:claude-aurelia-20260905@emaneevent
+DTSTAMP:20260616T120000Z
+DTSTART:20260905T110000Z
+DTEND:20260905T220000Z
+SUMMARY:LE GRAND JOUR — CLAUDE & AURÉLIA
+LOCATION:Espace Emane Event, Abidjan
+DESCRIPTION:Nous avons l’immense joie de vous convier à la célébration de notre union.\n\nVotre présence sera pour nous un honneur précieux.\n\nMerci de partager avec nous ce moment unique, rempli d’amour et d’émotion.
+
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Le compte à rebours est lancé. Le grand jour approche.
+END:VALARM
+
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Demain le grand jour de CLAUDE & AURÉLIA.
+END:VALARM
+
+END:VEVENT
+
+END:VCALENDAR
